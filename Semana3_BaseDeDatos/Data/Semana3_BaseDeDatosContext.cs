@@ -15,5 +15,6 @@ namespace Semana3_BaseDeDatos.Data
         }
 
         public DbSet<Semana3_BaseDeDatos.Models.Estudiante> Estudiante { get; set; } = default!;
+        public DbSet<Semana3_BaseDeDatos.Models.Carrera> Carrera { get; set; } = default!;
     }
 }
